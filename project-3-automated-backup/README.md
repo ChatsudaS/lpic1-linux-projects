@@ -1,19 +1,23 @@
-# Project 3: Automated Backup Script
+# Project : Automated Backup Script
 
-## Overview
-This Bash script automates backups by compressing the contents of `~/important-files` into a timestamped archive in `~/backups`.
+Bash script that backs up files and creates compressed archives.
 
 ## How to Use
-1. Put files you want to back up in `~/important-files`.
-2. Run:
 
+git clone https://github.com/ChatsudaS/lpic1-linux-projects.git
+cd lpic1-linux-projects/project-3-automated-backup
+chmod +x backup_script.sh
 ./backup_script.sh
 
-3. Archive appears in `~/backups/` with the current date/time in the filename.
 
-## Example Output
+## What It Does
 
-Backup completed successfully!
-Backup file created at: /home/username/backups/backup_20251111_152300.tar.gz
+- Compresses files from `~/important-files`
+- Creates timestamped backup file
+- Saves to `~/backups/` directory
+- Lists recent backups
+
+
+
 
 
