@@ -1,0 +1,40 @@
+==========================================
+SYSTEM INFORMATION REPORT
+Generated: Thu Nov 20 09:27:57 +07 2025
+==========================================
+
+--- HOSTNAME & UPTIME ---
+Hostname: Chatsudas-MacBook-Air.local
+Uptime:  9:27  up 43 days, 21:14, 2 users, load averages: 11.36 8.02 5.33
+
+--- OS INFORMATION ---
+OS: Darwin
+Kernel: 25.0.0
+Architecture: arm64
+
+--- CPU INFORMATION ---
+CPU Cores: 8
+CPU Model: Apple M1
+
+--- MEMORY INFORMATION ---
+Free Memory: 3678. pages
+Active Memory: 89550. pages
+Total Memory: 8 GB
+
+--- DISK USAGE ---
+Filesystem                                          Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1                                     228Gi    16Gi   117Gi    12%    447k  1.2G    0%   /
+devfs                                              217Ki   217Ki     0Bi   100%     750     0  100%   /dev
+/dev/disk3s6                                       228Gi   9.0Gi   117Gi     8%       9  1.2G    0%   /System/Volumes/VM
+/dev/disk3s2                                       228Gi    15Gi   117Gi    12%    1.8k  1.2G    0%   /System/Volumes/Preboot
+/dev/disk3s4                                       228Gi   748Mi   117Gi     1%     454  1.2G    0%   /System/Volumes/Update
+
+--- TOP 5 RUNNING PROCESSES ---
+
+--- NETWORK INTERFACES ---
+127.0.0.1
+192.168.1.45
+
+==========================================
+Report End
+==========================================
