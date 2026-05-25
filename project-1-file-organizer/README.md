@@ -1,13 +1,31 @@
 # Project 1: File Organization Script
 
-A simple Bash script to organize files into folders by file type.
+A bash script that automatically sorts files into subfolders based on their file type.
+
+## What It Does
+
+Scans a target folder and moves each file into the correct subfolder:
+- **Images** — jpg, jpeg, png, gif, bmp
+- **Videos** — mp4, mkv, mov, avi
+- **Audio** — mp3, wav, aac, ogg
+- **Documents** — pdf, doc, docx, txt
+- **Archives** — zip, tar, gz, bz2, rar
+- **Other** — anything that doesn't match above
 
 ## How to Use
 
-1. Place the script in the folder or specify a target directory.
-2. Run:
-    ./organize_files.sh [target-folder]
+```bash
+# Sort files in current folder
+./organize_files.sh
 
-Supported folders: Images, Videos, Audio, Documents, Archives, Other
+# Sort files in a specific folder
+./organize_files.sh /home/ubuntu/downloads
+```
+
+## What I Learned
+- Bash loops (for loop)
+- Case statements for pattern matching
+- File extension detection
+- Automating repetitive file management tasks
 
 
